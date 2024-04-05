@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(151, 151, 151);
+  height: calc(100vh - 30px);
+  width: calc(100vw - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: white;
+  width: 800px;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 15px 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: red;
+  font-size: 20px;
+  margin: 0;
+  /* padding-bottom: 9px; */
+}
+
+.header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  height: 83%;
+  justify-content: space-between;
+}
+
+.content_left {
+  width: 35%;
+  position: relative;
+}
+
+.content_left button {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content_left img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.content_right {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.content_information_text {
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content_information_input {
+  width: calc(100% - 35%);
+  line-height: 45px;
+}
+
+.content_information_input li input {
+  height: 35px;
+  width: 100%;
+  border: 2px solid rgb(0, 119, 255);
+  font-size: 20px;
+  outline: none;
+}
+
+/* Ẩn nút mũi tên trong input type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}

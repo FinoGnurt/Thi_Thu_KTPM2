@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg_items {
+  padding: 5px 0;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.items {
+  width: 300px;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+.contents {
+  padding: 0 10px 5px;
+}
+
+.title {
+  font-size: 16px;
+  width: 100%;
+  color: rgb(97, 97, 97);
+  text-transform: capitalize;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.price {
+  font-size: 25px;
+  width: 100%;
+  color: black;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
