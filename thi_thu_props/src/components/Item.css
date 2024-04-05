@@ -24,6 +24,7 @@
 
 .contents {
   padding: 0 10px 5px;
+  position: relative;
 }
 
 .title {
@@ -36,6 +37,27 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+/* .title:hover {
+  white-space: normal;
+  text-overflow: initial;
+  overflow: initial;
+} */
+
+/* .title:hover::after {
+  content: attr(title);
+  position: absolute;
+  background-color: #000000;
+  color: aqua;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  white-space: normal;
+  text-overflow: initial;
+  overflow: initial;
+} */
 
 .price {
   font-size: 25px;

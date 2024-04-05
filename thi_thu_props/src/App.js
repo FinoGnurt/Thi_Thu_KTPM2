@@ -11,7 +11,7 @@ function App() {
           <Item
             key={item.id}
             img={item.img}
-            title={item.title}
+            title={item.name}
             price={item.price}
           ></Item>
         ))}
